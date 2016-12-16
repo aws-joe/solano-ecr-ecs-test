@@ -12,7 +12,7 @@
 # Please see LICENSE.txt for applicable license terms and NOTICE.txt for applicable notices. 
 */
 
-$AppName = "Solano Dev Demo";
+$AppName = "Solano ECR Demo";
 
 ob_start();
 

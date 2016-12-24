@@ -39,7 +39,7 @@ fi
 export AWS_ACCESS_KEY_ID=$AWS_ASSUME_ROLE_ACCESS_KEY_ID
 export AWS_SECRET_ACCESS_KEY=$AWS_ASSUME_ROLE_SECRET_ACCESS_KEY
 export AWS_SESSION_TOKEN=$AWS_ASSUME_ROLE_SESSION_TOKEN
-aws configure list
+#aws configure list
 
 #Log in to AWS ECR Docker Repository
 echo "Requesting AWS ECR credentials."
@@ -47,7 +47,7 @@ DOCKER_LOGIN=`aws ecr get-login --region $AWS_DEFAULT_REGION`
 
 #Uncomment to show docker creds in logs
 #NOT RECOMMENDED
-echo $DOCKER_LOGIN
+#echo $DOCKER_LOGIN
 
 echo "Performing docker login."
 sudo $DOCKER_LOGIN

@@ -12,7 +12,7 @@
 # Please see LICENSE.txt for applicable license terms and NOTICE.txt for applicable notices. 
 */
 
-$AppName = "Solano CI Demo";
+$AppName = "Cross Account Demo";
 
 ob_start();
 
